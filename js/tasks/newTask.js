@@ -9,6 +9,5 @@ export async function newTask(name) {
                 "name":name
             })
         })
-        console.log(res.json())
-        return res.json()
+    return res.json()
 }
