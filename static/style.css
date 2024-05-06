@@ -1,0 +1,20 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Crewniverse_Cyrillic, sans-serif;
+}
+
+@font-face {
+    font-family: 'Crewniverse_Cyrillic';
+    src: url('../fonts/Crewniverse_Cyrillic/crewniverse_font_V6_0.ttf') format('truetype');
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    color: blueviolet;
+}
